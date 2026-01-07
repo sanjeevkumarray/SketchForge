@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+:root {
+  --primary: #6965db;
+  --primary-hover: #5753d0;
+  --primary-bg-color: white;
+  --secondary-bg-color: #f0efff;
+  --selected-bg-color: #e0dfff;
+  --primary-text-color: #27272c;
+  --secondary-text-color: #b8b8b8;
+  --highlight-color: #030064;
+  --border-color: #e7e6f7;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --hover-bg-color: #e5e5fb;
+  --panel-bg-color: #e7e7ee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.textArea {
+  position: fixed;
+  font: 24px sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  overflow: hidden;
+  white-space: pre;
+  background: transparent;
+  z-index: 2;
+}
+
+button {
+  cursor: pointer;
+}
+
+.brandLabel {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  z-index: 10;
+
+  padding: 8px 16px;
+  border-radius: 12px;
+
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f0f0f5;
+
+  background: rgba(40, 42, 50, 0.85); /* Slightly lighter dark */
+  backdrop-filter: saturate(180%) blur(8px); /* A bit more blur + saturation */
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25); /* subtle shadow for depth */
+
+  user-select: none;
+  pointer-events: none;
+
+  transition: background-color 0.3s ease;
+}
+
+/* Optional: Slight hover effect if you want it to highlight on mouse hover */
+.brandLabel:hover {
+  background: rgba(50, 52, 60, 0.95);
+  border-color: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}

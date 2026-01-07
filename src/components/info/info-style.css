@@ -1,0 +1,121 @@
+/* ================================
+   Info Button (Top-Right Help Icon)
+================================ */
+
+.infoButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+
+  background-color: var(--primary);
+  cursor: pointer;
+
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.infoButton * {
+  color: var(--primary-bg-color);
+  font-size: 1.1rem;
+}
+
+.infoButton:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-1px);
+}
+
+.infoButton:active {
+  transform: scale(0.97);
+}
+
+.infoButton:focus-visible {
+  outline: 2px solid var(--primary-hover);
+  outline-offset: 2px;
+}
+
+/* ================================
+   Dialog Content
+================================ */
+
+.infoContent {
+  padding: 20px 24px;
+  max-width: 520px;
+
+  color: var(--primary-text-color);
+  line-height: 1.65;
+  font-size: 0.95rem;
+}
+
+.infoContent p {
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.infoContent ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 8px 0 20px;
+}
+
+.infoContent li {
+  margin-bottom: 10px;
+  padding-left: 16px;
+  position: relative;
+}
+
+/* Custom bullet */
+.infoContent li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-size: 1.1rem;
+}
+
+.infoContent strong {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+/* ================================
+   Dialog Title
+================================ */
+
+.DialogTitle {
+  background-color: var(--primary);
+  color: var(--primary-bg-color);
+  text-align: center;
+}
+
+.DialogTitle h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* ================================
+   Close Button
+================================ */
+
+.IconButton {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.CloseIcon {
+  color: var(--primary-bg-color);
+  transition: opacity 0.2s ease;
+}
+
+.IconButton:hover .CloseIcon {
+  opacity: 0.8;
+}
