@@ -1,10 +1,8 @@
 🥷 SketchForge
 
-SketchForge is a hand-drawn style sketching web app inspired by Excalidraw, built with React and TypeScript. It leverages Rough.js to give your drawings a natural, sketchy feel, combining functionality with a creative, interactive experience. This side project was designed to deepen my understanding of React, TypeScript, canvas rendering, and interactive user interfaces.
+SketchForge is a modern hand-drawn style sketching web application inspired by Excalidraw. Built with React and TypeScript, it combines intuitive functionality with a creative, sketchy aesthetic using Rough.js. This project showcases interactive canvas rendering and advanced front-end techniques, offering a smooth and enjoyable drawing experience.
 
-Note: The app is optimized for desktop; responsiveness is not the focus, as the emphasis was on functionality and learning.
-
-📦 Technologies
+🛠 Technologies Used
 
 Frontend: React.js, TypeScript, Vite
 
@@ -14,21 +12,21 @@ Styling: CSS
 
 Testing: Vitest, Cypress, Testing Library
 
-🦄 Key Features
+🌟 Features
 
-SketchForge provides a smooth and intuitive drawing experience with essential tools for creative expression:
+SketchForge delivers a responsive and intuitive drawing experience with essential creative tools:
 
-Tool Selection: Draw using pencils, lines, rectangles, and text.
+Drawing Tools: Pencil, line, rectangle, and text.
 
-Move & Resize: Drag elements around and resize rectangles or lines with ease.
+Move & Resize: Drag shapes or lines and adjust their size seamlessly.
 
-Text Editing: Click to add or modify text directly on the canvas.
+Text Editing: Add or modify text directly on the canvas.
 
-Zoom & Pan: Zoom in/out with Ctrl + scroll or buttons, and pan using the Space bar or middle mouse button.
+Zoom & Pan: Zoom with Ctrl + scroll or buttons; pan using the Space bar or middle mouse button.
 
-Undo/Redo: Fix mistakes instantly using keyboard shortcuts.
+Undo/Redo: Quickly correct mistakes with keyboard shortcuts.
 
-🎯 Keyboard Shortcuts
+⌨️ Keyboard Shortcuts
 Action	Shortcut
 Pan Canvas	Space + Drag / Middle Mouse
 Undo	Ctrl + Z
@@ -38,49 +36,49 @@ Zoom Out	Ctrl + -
 🧩 How It Works
 
 Canvas Initialization:
-A canvas is rendered using Rough.js as the foundation for all drawings.
+The canvas uses Rough.js to create natural, hand-drawn visual effects for all elements.
 
 Drawing & Editing:
-Users can draw shapes, lines, or text, move elements, and resize them where applicable.
+Users can draw shapes, lines, or text, then move and resize them with ease.
 
 Undo/Redo System:
-A custom useHistory hook tracks changes, enabling seamless undo and redo actions.
+A custom useHistory hook tracks all changes, enabling smooth undo and redo functionality.
 
 Interactive Canvas:
-Freehand drawing, zooming, and panning create an engaging and user-friendly experience.
+Freehand drawing, zooming, and panning create a dynamic and engaging interface.
 
 Testing:
-End-to-end and component tests using Cypress and Testing Library ensure stable and reliable functionality.
+Robust end-to-end and component tests using Cypress and Testing Library ensure stability and reliability.
 
 🧠 Learning Highlights
 
-Working on SketchForge taught me more than just coding—it helped me think logically, handle complex problems, and optimize user experience:
+Developing SketchForge provided deep insights into several advanced front-end concepts:
 
-Custom Hooks & State Management: Building a useHistory hook improved my understanding of undo/redo logic and state tracking.
+Custom Hooks & State Management: Built useHistory for undo/redo tracking.
 
-Canvas & Geometry: Calculating coordinates and points refined my accuracy and mathematical reasoning.
+Canvas & Geometry: Improved accuracy in coordinate calculations and element positioning.
 
-Rough.js Exploration: Learned to render hand-drawn effects and manipulate SVG paths dynamically.
+Rough.js Exploration: Learned dynamic SVG manipulation for hand-drawn effects.
 
-Advanced Event Handling: Implemented smooth zooming, panning, and keyboard interactions.
+Advanced Event Handling: Implemented smooth zoom, pan, and keyboard interactions.
 
-React Rendering Insights: Applied useLayoutEffect for precise updates before DOM painting.
+React Rendering Insights: Applied useLayoutEffect for precise DOM updates before painting.
 
-💡 Future Improvements
-
-Expand color palette and text formatting options.
+💡 Future Enhancements
 
 Add more shapes: circles, triangles, stars, etc.
 
-Introduce eraser tool and additional drawing tools.
+Expand color palette and text formatting options.
 
-Implement dark/light themes.
+Introduce an eraser tool and additional creative tools.
 
-Optimize TypeScript types to remove any usage in Rough.js elements.
+Implement dark/light themes for enhanced user experience.
 
-Add more keyboard shortcuts for efficiency.
+Optimize TypeScript types for stronger type safety.
 
-🚦 Running Locally
+Add additional keyboard shortcuts for productivity.
+
+🚀 Getting Started Locally
 
 Clone the repository:
 
@@ -94,23 +92,21 @@ npm install
 yarn
 
 
-Start the app:
+Start the development server:
 
 npm run start
 # or
 yarn start
 
 
-Open your browser and navigate to:
+Open your browser and visit:
 
 http://localhost:5173
 
 🍿 Live Demo
 
-Experience SketchForge live at: https://sketchforge.netlify.app
+Explore SketchForge in action: https://sketchforge.netlify.app
 
-🎯 Summary
+SketchForge is more than just a drawing app—it’s a platform to unleash creativity, learn advanced web development techniques, and create beautiful hand-drawn designs effortlessly.
 
-SketchForge is more than a drawing app—it’s a learning project that combines creativity, technical exploration, and problem-solving. Every feature represents a deep dive into React, TypeScript, and interactive canvas management.
-
-Whether for fun, learning, or prototyping, SketchForge demonstrates how thoughtful design and careful logic come together to create a functional, interactive, and engaging application.
+<img width="1918" height="858" alt="image" src="https://github.com/user-attachments/assets/70af1359-cf7e-4262-80c1-56da4159f8a8" />
