@@ -1,24 +1,4 @@
-Ah, got it! You’re saying your README file isn’t displaying or working properly—maybe when viewed on GitHub or locally it looks messy or the formatting isn’t correct. Let’s go step by step to fix it.
 
-Here are some observations and improvements:
-
----
-
-### 1️⃣ Markdown Structure
-
-Your README is mostly fine, but some parts could be structured better for GitHub Markdown:
-
-* Use `##` for sections (like Features, Technologies, Installation).
-* Use tables properly for shortcuts.
-* Use backticks for commands.
-* Keep images in proper markdown format.
-* Add links with `[text](url)` format.
-
----
-
-### 2️⃣ Example Fixed README
-
-````markdown
 # 🥷 SketchForge
 
 SketchForge is a modern hand-drawn style sketching web application inspired by Excalidraw. Built with **React** and **TypeScript**, it combines intuitive functionality with a creative, sketchy aesthetic using **Rough.js**. This project showcases interactive canvas rendering and advanced front-end techniques, offering a smooth and enjoyable drawing experience.
@@ -136,5 +116,3 @@ Explore SketchForge: [https://sketchforge.netlify.app](https://sketchforge.netli
 
 ![SketchForge Screenshot](https://github.com/user-attachments/assets/70af1359-cf7e-4262-80c1-56da4159f8a8)
 
-Do you want me to do that next?
-```
